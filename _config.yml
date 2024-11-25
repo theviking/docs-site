@@ -1,8 +1,17 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Weave WPF Toolkit Docs
+description: Weave WPF Toolkit documentation site.
 
-url: https://just-the-docs.github.io
+remote_theme: just-the-docs/just-the-docs
+
+url: https://pages.git.autodesk.com/snelle/my-app
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Git Repository: https://git.autodesk.com/snelle/my-app
+
+logo: "/weave-wpf-logo.png"
+favicon_ico: "/favicon.ico"
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
